@@ -144,7 +144,7 @@ class SAT():
                 c[choice([0, 1, 2])] *= -1  # thru flip terminals (negating)
             self.clauses.append(c)
         if self.value() != True:
-            print("something has gone wrong!")
+            print("Error!")
         return self
         # Exclude self when done checking
 
